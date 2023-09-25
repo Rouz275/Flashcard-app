@@ -63,6 +63,8 @@ function StudyDeck() {
           ...currentState,
           currentIndex: 0,
         }));
+      } else {
+        window.location.href = '/'; 
       }
     } else {
       setDeckState((currentState) => ({
